@@ -6,3 +6,28 @@
 .blue {
     background-color: blue;
 }
+
+.back {
+    background-image: url(../images/CessnaFlyAtDaytime.svg);
+    background-color: #868e96;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+}
+
+div.ghosted-white {
+    border-radius: 1rem;
+    padding: 0.65rem; 
+    background-color:rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+    color: black;
+}
+
+div.ghosted-white > p.subtitle {
+    color: black !important;
+}
